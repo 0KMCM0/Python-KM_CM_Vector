@@ -1,3 +1,7 @@
+"""
+https://github.com/0KMCM0/Python-KM_CM_Vector
+"""
+
 from typing import Generic as _Generic, TypeVar as _TypeVar
 
 _T = _TypeVar( '_T' )
