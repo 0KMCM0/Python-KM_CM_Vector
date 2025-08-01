@@ -1,5 +1,5 @@
 """
-https://github.com/0KMCM0/Python-KM_CM_Vector
+https://github.com/KM-CM/Python-KM_CM_Vector
 """
 
 from typing import Generic as _Generic, TypeVar as _TypeVar
@@ -94,3 +94,4 @@ Get axis ``Index + 1``.
     def __rmod__( self, Other ) -> 'Vector[ _T ]': return      self.__ROperator__( Other, lambda A, B: A % B )
     def __rtruediv__( self, Other ) -> 'Vector[ _T ]': return  self.__ROperator__( Other, lambda A, B: A / B )
     def __rfloordiv__( self, Other ) -> 'Vector[ _T ]': return self.__ROperator__( Other, lambda A, B: A // B )
+
